@@ -1,0 +1,281 @@
+TFaceDetection
+v7
+r0
+t321729732.454988
+cCheck dependencies
+cProcessInfoPlistFile /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app/Info.plist FaceDetection-Info.plist
+cCompileXIB /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/MainWindow.xib
+cCompileXIB /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/FaceDetectionViewController.xib
+cProcessPCH /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-fyvaigbrqizlwxfhevgyrgybezkz/FaceDetection_Prefix.pch.gch FaceDetection_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/Objects-normal/i386/main.o /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/Objects-normal/i386/FaceDetectionAppDelegate.o /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/Objects-normal/i386/FaceDetectionViewController.o /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app/FaceDetection normal i386
+cGenerateDSYMFile /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app.dSYM /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app/FaceDetection
+cTouch /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CFC437D0000000000000110
+t1291600765
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000004AD4F4D80000000000006500
+t1255470296
+s25856
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionAppDelegate.h
+c000000004D72BB990000000000000204
+t1299364761
+s516
+i<UIKit/UIKit.h>
+
+N/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionAppDelegate.m
+c000000004D72BB990000000000000AB4
+t1299364761
+s2740
+i"FaceDetectionAppDelegate.h"
+i"FaceDetectionViewController.h"
+
+N/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionViewController.h
+c000000004D72BB990000000000000101
+t1299364761
+s257
+i<UIKit/UIKit.h>
+
+N/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionViewController.m
+c000000004D7567560000000000000CD2
+t1299539798
+s3282
+i"FaceDetectionViewController.h"
+i<opencv/cv.h>
+
+N/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/FaceDetectionViewController.xib
+c000000004D72BB990000000000001A5D
+t1299364761
+s6749
+
+N/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/FaceDetection_Prefix.pch
+c000000004D72BB9900000000000000C3
+t1299364761
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/MainWindow.xib
+c000000004D72BB990000000000004E71
+t1299364761
+s20081
+
+N/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app
+t1300036932
+s238
+
+N/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app.dSYM
+t1300036932
+s102
+
+N/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app/FaceDetection
+t1300036931
+s4157100
+
+N/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app/FaceDetectionViewController.nib
+t1299441998
+s795
+
+N/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app/Info.plist
+t1299441994
+s615
+
+N/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app/MainWindow.nib
+t1299441998
+s1135
+
+N/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app/PkgInfo
+t1299441994
+s8
+
+N/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/Objects-normal/i386/FaceDetection.LinkFileList
+c000000004D73E94A000000000000021A
+t1299441994
+s538
+
+N/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/Objects-normal/i386/FaceDetectionAppDelegate.o
+t1299442001
+s51296
+
+N/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/Objects-normal/i386/FaceDetectionViewController.o
+t1300036930
+s113072
+
+N/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/Objects-normal/i386/main.o
+t1299442001
+s6364
+
+N/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/libcv.a
+c000000004C2EFBAF00000000002C7C70
+t1278147503
+s2915440
+
+N/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/libcxcore.a
+c000000004C2EFBAF00000000003C80F0
+t1278147503
+s3965168
+
+N/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/main.m
+c000000004D72BB990000000000000170
+t1299364761
+s368
+i<UIKit/UIKit.h>
+
+N/var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-fyvaigbrqizlwxfhevgyrgybezkz/FaceDetection_Prefix.pch.gch
+t1299442000
+s15453392
+
+NFaceDetection-Info.plist
+c000000004D72BB99000000000000038D
+t1299364761
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321729728#321729728#0(0"0(0#1#0"9000770528#0"0#
+
+CCompileC build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/Objects-normal/i386/FaceDetectionAppDelegate.o /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321134801.124758
+e321134801.381995
+r1
+xCompileC
+xbuild/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/Objects-normal/i386/FaceDetectionAppDelegate.o
+x/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@112"Compile /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionAppDelegate.m321134801#321134801#0(0"0(0#0#104"/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionAppDelegate.m8617655968#2520"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/FaceDetection-generated-files.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/FaceDetection-own-target-headers.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/FaceDetection-all-target-headers.hmap -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/FaceDetection-project-headers.hmap -F/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/DerivedSources/i386 -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/DerivedSources -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-fyvaigbrqizlwxfhevgyrgybezkz/FaceDetection_Prefix.pch -c /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionAppDelegate.m -o /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/Objects-normal/i386/FaceDetectionAppDelegate.o0#
+
+CCompileC build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/Objects-normal/i386/FaceDetectionViewController.o /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321729728.269047
+e321729730.020879
+r1
+xCompileC
+xbuild/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/Objects-normal/i386/FaceDetectionViewController.o
+x/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionViewController.m: In function 'detectFaceInImage':
+o/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionViewController.m:32: warning: unused variable 'i'
+lSLF07#2@115"Compile /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionViewController.m321729728#321729730#0(283"/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionViewController.m: In function 'detectFaceInImage':/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionViewController.m:32: warning: unused variable 'i'1(22@19"Unused variable 'i'321729729#142#141#0(6@107"/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionViewController.m321232598#32#0#32#0#19"unused variable '*'0(0#0#107"/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionViewController.m9007621088#2526"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/FaceDetection-generated-files.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/FaceDetection-own-target-headers.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/FaceDetection-all-target-headers.hmap -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/FaceDetection-project-headers.hmap -F/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/DerivedSources/i386 -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/DerivedSources -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-fyvaigbrqizlwxfhevgyrgybezkz/FaceDetection_Prefix.pch -c /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionViewController.m -o /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/Objects-normal/i386/FaceDetectionViewController.o0#
+
+CCompileC build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/Objects-normal/i386/main.o /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321134801.122748
+e321134801.378928
+r1
+xCompileC
+xbuild/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/Objects-normal/i386/main.o
+x/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/main.m321134801#321134801#0(0"0(0#0#76"/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/main.m8620194816#2472"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/FaceDetection-generated-files.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/FaceDetection-own-target-headers.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/FaceDetection-all-target-headers.hmap -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/FaceDetection-project-headers.hmap -F/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/DerivedSources/i386 -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/DerivedSources -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-fyvaigbrqizlwxfhevgyrgybezkz/FaceDetection_Prefix.pch -c /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/main.m -o /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/FaceDetectionViewController.xib
+s321134795.023729
+e321134799.097222
+r1
+xCompileXIB
+x/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/FaceDetectionViewController.xib
+lSLF07#2@42"CompileXIB FaceDetectionViewController.xib321134795#321134799#0(0"0(0#0#101"/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/FaceDetectionViewController.xib8614668640#703"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app/FaceDetectionViewController.nib /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/FaceDetectionViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/MainWindow.xib
+s321134794.986009
+e321134798.859652
+r1
+xCompileXIB
+x/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib321134794#321134798#0(0"0(0#0#84"/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/MainWindow.xib8618445504#669"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app/MainWindow.nib /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app.dSYM /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app/FaceDetection
+s321729731.284498
+e321729732.451964
+r1
+xGenerateDSYMFile
+x/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app.dSYM
+x/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app/FaceDetection
+lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/FaceDetection.app.dSYM build/Debug-iphonesimulator/FaceDetection.app/FaceDetection321729731#321729732#0(0"0(0#0#129"/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app/FaceDetection8999031200#494"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app/FaceDetection -o /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app.dSYM0#
+
+CLd /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app/FaceDetection normal i386
+s321729730.021122
+e321729731.284393
+r1
+xLd
+x/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app/FaceDetection
+xnormal
+xi386
+old: warning: can't add line info to anonymous symbol __ZN2cv9ExceptionD1Ev.lsda from /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/lib/libcxcore.a(lib_cxcore_la-cxmathfuncs.o)
+old: warning: can't add line info to anonymous symbol __ZN2cv3Mat6createEiii.lsda from /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/lib/libcv.a(lib_cv_la-cvgeometry.o)
+old: warning: can't add line info to anonymous symbol __ZN2cvL15calcBackProj_8uERSt6vectorIPhSaIS1_EERKS0_IiSaIiEENS_5Size_IiEERKNS_5MatNDEPPKfPKdfb.lsda from /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/lib/libcv.a(lib_cv_la-cvhistogram.o)
+old: warning: can't add line info to anonymous symbol __ZN2cv9ExceptionD1Ev.lsda from /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/lib/libcxcore.a(lib_cxcore_la-cxlapack.o)
+old: warning: can't add line info to anonymous symbol cstring=/Users/macmade/Desktop/OpenCV-iPhone/OpenCV/build/iPhoneSimulator/../.././tmp/OpenCV-2.0.0/src/cv/cvundistort.cpp from /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/lib/libcv.a(lib_cv_la-cvundistort.o)
+old: warning: can't add line info to anonymous symbol cstring=vector::_M_fill_insert from /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/lib/libcv.a(lib_cv_la-cvmorph.o)
+old: warning: can't add line info to anonymous symbol cstring=vector::_M_fill_insert from /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/lib/libcv.a(lib_cv_la-cvsmooth.o)
+lSLF07#2@134"Link /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app/FaceDetection321729730#321729731#0(1645"ld: warning: can't add line info to anonymous symbol __ZN2cv9ExceptionD1Ev.lsda from /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/lib/libcxcore.a(lib_cxcore_la-cxmathfuncs.o)ld: warning: can't add line info to anonymous symbol __ZN2cv3Mat6createEiii.lsda from /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/lib/libcv.a(lib_cv_la-cvgeometry.o)ld: warning: can't add line info to anonymous symbol __ZN2cvL15calcBackProj_8uERSt6vectorIPhSaIS1_EERKS0_IiSaIiEENS_5Size_IiEERKNS_5MatNDEPPKfPKdfb.lsda from /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/lib/libcv.a(lib_cv_la-cvhistogram.o)ld: warning: can't add line info to anonymous symbol __ZN2cv9ExceptionD1Ev.lsda from /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/lib/libcxcore.a(lib_cxcore_la-cxlapack.o)ld: warning: can't add line info to anonymous symbol cstring=/Users/macmade/Desktop/OpenCV-iPhone/OpenCV/build/iPhoneSimulator/../.././tmp/OpenCV-2.0.0/src/cv/cvundistort.cpp from /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/lib/libcv.a(lib_cv_la-cvundistort.o)ld: warning: can't add line info to anonymous symbol cstring=vector::_M_fill_insert from /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/lib/libcv.a(lib_cv_la-cvmorph.o)ld: warning: can't add line info to anonymous symbol cstring=vector::_M_fill_insert from /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/lib/libcv.a(lib_cv_la-cvsmooth.o)7(22@203"Can't add line info to anonymous symbol __ZN2cv9ExceptionD1Ev.lsda from /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/lib/libcxcore.a(lib_cxcore_la-cxmathfuncs.o)321729731#0#217#0(6@0"321729731#0#0#0#0#0"0(22@195"Can't add line info to anonymous symbol __ZN2cv3Mat6createEiii.lsda from /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/lib/libcv.a(lib_cv_la-cvgeometry.o)321729731#217#209#0(6@0"321729731#0#0#0#0#0"0(22@268"Can't add line info to anonymous symbol __ZN2cvL15calcBackProj_8uERSt6vectorIPhSaIS1_EERKS0_IiSaIiEENS_5Size_IiEERKNS_5MatNDEPPKfPKdfb.lsda from /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/lib/libcv.a(lib_cv_la-cvhistogram.o)321729731#426#282#0(6@0"321729731#0#0#0#0#0"0(22@200"Can't add line info to anonymous symbol __ZN2cv9ExceptionD1Ev.lsda from /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/lib/libcxcore.a(lib_cxcore_la-cxlapack.o)321729731#708#214#0(6@0"321729731#0#0#0#0#0"0(22@290"Can't add line info to anonymous symbol cstring=/Users/macmade/Desktop/OpenCV-iPhone/OpenCV/build/iPhoneSimulator/../.././tmp/OpenCV-2.0.0/src/cv/cvundistort.cpp from /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/lib/libcv.a(lib_cv_la-cvundistort.o)321729731#922#304#0(6@0"321729731#0#0#0#0#0"0(22@195"Can't add line info to anonymous symbol cstring=vector::_M_fill_insert from /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/lib/libcv.a(lib_cv_la-cvmorph.o)321729731#1226#209#0(6@0"321729731#0#0#0#0#0"0(22@196"Can't add line info to anonymous symbol cstring=vector::_M_fill_insert from /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/lib/libcv.a(lib_cv_la-cvsmooth.o)321729731#1435#210#0(6@0"321729731#0#0#0#0#0"0(0#0#0"9018407104#1227"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator -L/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/lib -F/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator -filelist /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/Objects-normal/i386/FaceDetection.LinkFileList -mmacosx-version-min=10.6 -lz -lstdc++ -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework Accelerate -lcv -lcxcore -o /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app/FaceDetection0#
+
+CProcessInfoPlistFile /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app/Info.plist FaceDetection-Info.plist
+s321134794.954136
+e321134794.985895
+r1
+xProcessInfoPlistFile
+x/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app/Info.plist
+xFaceDetection-Info.plist
+lSLF07#2@32"Process FaceDetection-Info.plist321134794#321134794#0(0"0(0#0#94"/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/FaceDetection-Info.plist8739545632#590"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FaceDetection-Info.plist -genpkginfo /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app/Info.plist0#
+
+CProcessPCH /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-fyvaigbrqizlwxfhevgyrgybezkz/FaceDetection_Prefix.pch.gch FaceDetection_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s321134799.097418
+e321134801.122353
+r1
+xProcessPCH
+x/var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-fyvaigbrqizlwxfhevgyrgybezkz/FaceDetection_Prefix.pch.gch
+xFaceDetection_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile FaceDetection_Prefix.pch321134799#321134801#0(0"0(0#0#94"/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/FaceDetection_Prefix.pch8739166240#2327"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/FaceDetection-generated-files.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/FaceDetection-own-target-headers.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/FaceDetection-all-target-headers.hmap -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/FaceDetection-project-headers.hmap -F/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/opencv_simulator/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/DerivedSources/i386 -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphonesimulator/FaceDetection.build/DerivedSources -c /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/FaceDetection_Prefix.pch -o /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-fyvaigbrqizlwxfhevgyrgybezkz/FaceDetection_Prefix.pch.gch0#
+
+CTouch /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app
+s321729732.452114
+e321729732.454945
+r1
+xTouch
+x/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app
+lSLF07#2@121"Touch /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app321729732#321729732#0(0"0(0#0#0"9016234240#346"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphonesimulator/FaceDetection.app0#
+
