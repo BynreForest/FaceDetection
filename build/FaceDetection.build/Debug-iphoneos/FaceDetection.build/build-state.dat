@@ -1,24 +1,25 @@
 TFaceDetection
 v7
 r0
-t321760800.268320
+t321849475.063692
 cCheck dependencies
 cCpResource build/Debug-iphoneos/FaceDetection.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
 cProcessInfoPlistFile /Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app/Info.plist FaceDetection-Info.plist
 cCompileXIB /Users/brendangaynor/Documents/clients/me/FaceDetection/MainWindow.xib
 cCompileXIB /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetectionViewController.xib
 cCpResource build/Debug-iphoneos/FaceDetection.app/haarcascade_frontalface_default.xml haarcascade_frontalface_default.xml
+cCopyPNGFile /Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app/skull.png skull.png
 cProcessPCH /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-drfbfqncapvecuequkuhszzgfnlc/FaceDetection_Prefix.pch.gch FaceDetection_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
 cProcessPCH /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-dpsephsdejglxkgettwrkkbcqvru/FaceDetection_Prefix.pch.gch FaceDetection_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/main.o /Users/brendangaynor/Documents/clients/me/FaceDetection/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetectionAppDelegate.o /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetectionViewController.o /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/CaptureSessionManager.o /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/CaptureSessionManager.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetection normal armv6
 cCompileC build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/main.o /Users/brendangaynor/Documents/clients/me/FaceDetection/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetectionAppDelegate.o /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetectionViewController.o /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/CaptureSessionManager.o /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/CaptureSessionManager.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetection normal armv6
 cLd /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetection normal armv7
 cCreateUniversalBinary /Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app/FaceDetection normal "armv6 armv7"
 cGenerateDSYMFile /Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app.dSYM /Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app/FaceDetection
@@ -108,18 +109,18 @@ t1287723893
 s13068784
 
 N/Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/CaptureSessionManager.h
-c000000004D7D28070000000000000E19
-t1300047879
-s3609
+c000000004D7E9D310000000000000E56
+t1300143409
+s3670
 i<UIKit/UIKit.h>
 i<CoreMedia/CoreMedia.h>
 i<AVFoundation/AVFoundation.h>
 i<opencv/cv.h>
 
 N/Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/CaptureSessionManager.m
-c000000004D7D3FD30000000000004066
-t1300053971
-s16486
+c000000004D7ED1000000000000003B7B
+t1300156672
+s15227
 i"CaptureSessionManager.h"
 
 N/Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionAppDelegate.h
@@ -137,16 +138,16 @@ i"FaceDetectionAppDelegate.h"
 i"FaceDetectionViewController.h"
 
 N/Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionViewController.h
-c000000004D75A8E000000000000001DE
-t1299556576
-s478
+c000000004D7EC54C00000000000001F6
+t1300153676
+s502
 i<UIKit/UIKit.h>
 i"CaptureSessionManager.h"
 
 N/Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionViewController.m
-c000000004D777E71000000000000086D
-t1299676785
-s2157
+c000000004D7EC88D0000000000000B85
+t1300154509
+s2949
 i"FaceDetectionViewController.h"
 
 N/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionAppDelegate.h
@@ -656,16 +657,16 @@ t1299364761
 s20081
 
 N/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app
-t1300067959
-s408
+t1300156675
+s442
 
 N/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app.dSYM
-t1300067958
+t1300156674
 s102
 
 N/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app/FaceDetection
-t1300067958
-s2075168
+t1300156674
+s2061124
 
 N/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app/FaceDetectionViewController.nib
 t1300052662
@@ -695,17 +696,21 @@ N/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/Fa
 t1300052662
 s1254733
 
+N/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app/skull.png
+t1300153729
+s101744
+
 N/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection.xcent
 t1300052665
 s432
 
 N/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/CaptureSessionManager.o
-t1300067955
-s41392
+t1300156674
+s42804
 
 N/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetection
-t1300067958
-s1023996
+t1300156674
+s1029048
 
 N/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetection.LinkFileList
 c000000004D7D766F0000000000000280
@@ -713,24 +718,24 @@ t1300067951
 s640
 
 N/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetectionAppDelegate.o
-t1300067955
-s52392
+t1300153729
+s52436
 
 N/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetectionViewController.o
-t1300067955
-s45280
+t1300154515
+s48012
 
 N/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/main.o
 t1300067954
 s6480
 
 N/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/CaptureSessionManager.o
-t1300067956
-s40508
+t1300156674
+s41904
 
 N/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetection
-t1300067958
-s1023884
+t1300156674
+s1024836
 
 N/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetection.LinkFileList
 c000000004D7D766F0000000000000280
@@ -738,12 +743,12 @@ t1300067951
 s640
 
 N/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetectionAppDelegate.o
-t1300067955
-s52312
+t1300153730
+s52356
 
 N/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetectionViewController.o
-t1300067955
-s45144
+t1300154515
+s47816
 
 N/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/main.o
 t1300067955
@@ -769,6 +774,11 @@ c000000004D72BB990000000000000170
 t1299364761
 s368
 i<UIKit/UIKit.h>
+
+N/Users/brendangaynor/Documents/clients/me/FaceDetection/skull.png
+c000000004D7EC0FE000000000001842E
+t1300152574
+s99374
 
 N/Users/brendangaynor/Library/MobileDevice/Provisioning Profiles/8A75B594-4A7D-4654-85AC-C4E134F04035.mobileprovision
 c000000004D6F9F930000000000001DFC
@@ -832,7 +842,7 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies321760800#321760800#0(0"0(0#1#0"8619087584#0"0#
+lSLF07#2@18"Check dependencies321849474#321849474#0(0"0(0#1#0"8685668544#0"0#
 
 CCodeSign /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphoneos/FaceDetection.app
 s321232526.228634
@@ -860,16 +870,16 @@ x/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/
 lSLF07#2@47"CodeSign build/Debug-iphoneos/FaceDetection.app321746423#321746424#0(0"0(0#0#111"/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/Debug-iphoneos/FaceDetection.app9068062080#816"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Brendan Gaynor (ZQ2BC5DZ4J)" --resource-rules=/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/Debug-iphoneos/FaceDetection.app/ResourceRules.plist --entitlements /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection.xcent /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/Debug-iphoneos/FaceDetection.app0#
 
 CCodeSign /Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app
-s321760758.989187
-e321760759.876611
+s321849474.765816
+e321849475.063649
 r1
 xCodeSign
 x/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app
-lSLF07#2@47"CodeSign build/Debug-iphoneos/FaceDetection.app321760758#321760759#0(0"0(0#0#94"/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app8608007168#748"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Brendan Gaynor (ZQ2BC5DZ4J)" --resource-rules=/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app/ResourceRules.plist --entitlements /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection.xcent /Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app0#
+lSLF07#2@47"CodeSign build/Debug-iphoneos/FaceDetection.app321849474#321849475#0(0"0(0#0#94"/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app8685879744#748"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Brendan Gaynor (ZQ2BC5DZ4J)" --resource-rules=/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app/ResourceRules.plist --entitlements /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection.xcent /Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app0#
 
 CCompileC build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/CaptureSessionManager.o /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/CaptureSessionManager.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s321760755.437943
-e321760755.764311
+s321849474.161973
+e321849474.531769
 r1
 xCompileC
 xbuild/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/CaptureSessionManager.o
@@ -878,7 +888,7 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/CaptureSessionManager.m321760755#321760755#0(0"0(0#0#87"/Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/CaptureSessionManager.m8602908544#2153"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-generated-files.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-own-target-headers.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-all-target-headers.hmap -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-project-headers.hmap -F/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/opencv_device/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources/armv6 -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-drfbfqncapvecuequkuhszzgfnlc/FaceDetection_Prefix.pch -c /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/CaptureSessionManager.m -o /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/CaptureSessionManager.o0#
+lSLF07#2@95"Compile /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/CaptureSessionManager.m321849474#321849474#0(0"0(0#0#87"/Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/CaptureSessionManager.m8686236512#2153"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-generated-files.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-own-target-headers.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-all-target-headers.hmap -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-project-headers.hmap -F/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/opencv_device/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources/armv6 -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-drfbfqncapvecuequkuhszzgfnlc/FaceDetection_Prefix.pch -c /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/CaptureSessionManager.m -o /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/CaptureSessionManager.o0#
 
 CCompileC build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/CaptureSessionManager.o /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v2/Classes/CaptureSessionManager.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s321739663.983132
@@ -907,8 +917,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@112"Compile /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/Classes/CaptureSessionManager.m321746422#321746423#0(0"0(0#0#104"/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/Classes/CaptureSessionManager.m9070010752#2357"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-generated-files.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-own-target-headers.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-all-target-headers.hmap -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-project-headers.hmap -F/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/Debug-iphoneos -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/Debug-iphoneos/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/opencv_device/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources/armv6 -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-ftpequhjravnsoejcuhczxtvdwne/FaceDetection_Prefix.pch -c /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/Classes/CaptureSessionManager.m -o /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/CaptureSessionManager.o0#
 
 CCompileC build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetectionAppDelegate.o /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s321760754.691493
-e321760755.513090
+s321846529.561595
+e321846529.831696
 r1
 xCompileC
 xbuild/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetectionAppDelegate.o
@@ -917,7 +927,7 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@98"Compile /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionAppDelegate.m321760754#321760755#0(0"0(0#0#90"/Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionAppDelegate.m8608614624#2159"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-generated-files.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-own-target-headers.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-all-target-headers.hmap -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-project-headers.hmap -F/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/opencv_device/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources/armv6 -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-drfbfqncapvecuequkuhszzgfnlc/FaceDetection_Prefix.pch -c /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionAppDelegate.m -o /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetectionAppDelegate.o0#
+lSLF07#2@98"Compile /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionAppDelegate.m321846529#321846529#0(0"0(0#0#90"/Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionAppDelegate.m8658294432#2159"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-generated-files.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-own-target-headers.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-all-target-headers.hmap -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-project-headers.hmap -F/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/opencv_device/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources/armv6 -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-drfbfqncapvecuequkuhszzgfnlc/FaceDetection_Prefix.pch -c /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionAppDelegate.m -o /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetectionAppDelegate.o0#
 
 CCompileC build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetectionAppDelegate.o /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s321134938.203673
@@ -959,8 +969,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@115"Compile /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/Classes/FaceDetectionAppDelegate.m321745464#321745464#0(0"0(0#0#107"/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/Classes/FaceDetectionAppDelegate.m9071217376#2363"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-generated-files.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-own-target-headers.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-all-target-headers.hmap -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-project-headers.hmap -F/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/Debug-iphoneos -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/Debug-iphoneos/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/opencv_device/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources/armv6 -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-ftpequhjravnsoejcuhczxtvdwne/FaceDetection_Prefix.pch -c /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/Classes/FaceDetectionAppDelegate.m -o /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetectionAppDelegate.o0#
 
 CCompileC build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetectionViewController.o /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s321760754.944531
-e321760755.437837
+s321847315.429027
+e321847315.870013
 r1
 xCompileC
 xbuild/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetectionViewController.o
@@ -969,7 +979,7 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@101"Compile /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionViewController.m321760754#321760755#0(0"0(0#0#93"/Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionViewController.m8607728288#2165"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-generated-files.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-own-target-headers.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-all-target-headers.hmap -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-project-headers.hmap -F/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/opencv_device/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources/armv6 -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-drfbfqncapvecuequkuhszzgfnlc/FaceDetection_Prefix.pch -c /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionViewController.m -o /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetectionViewController.o0#
+lSLF07#2@101"Compile /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionViewController.m321847315#321847315#0(0"0(0#0#93"/Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionViewController.m8664991200#2165"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-generated-files.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-own-target-headers.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-all-target-headers.hmap -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-project-headers.hmap -F/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/opencv_device/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources/armv6 -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-drfbfqncapvecuequkuhszzgfnlc/FaceDetection_Prefix.pch -c /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionViewController.m -o /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetectionViewController.o0#
 
 CCompileC build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetectionViewController.o /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s321135212.865314
@@ -1065,8 +1075,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@70"Compile /Users/brendangaynor/Documents/clients/me/FaceDetection/main.m321760754#321760754#0(0"0(0#0#62"/Users/brendangaynor/Documents/clients/me/FaceDetection/main.m8609923072#2111"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-generated-files.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-own-target-headers.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-all-target-headers.hmap -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-project-headers.hmap -F/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/opencv_device/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources/armv6 -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-drfbfqncapvecuequkuhszzgfnlc/FaceDetection_Prefix.pch -c /Users/brendangaynor/Documents/clients/me/FaceDetection/main.m -o /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/main.o0#
 
 CCompileC build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/CaptureSessionManager.o /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/CaptureSessionManager.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s321760755.996058
-e321760756.210843
+s321849474.207551
+e321849474.563037
 r1
 xCompileC
 xbuild/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/CaptureSessionManager.o
@@ -1075,7 +1085,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/CaptureSessionManager.m321760755#321760756#0(0"0(0#0#87"/Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/CaptureSessionManager.m8608072704#2153"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-generated-files.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-own-target-headers.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-all-target-headers.hmap -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-project-headers.hmap -F/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/opencv_device/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources/armv7 -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-dpsephsdejglxkgettwrkkbcqvru/FaceDetection_Prefix.pch -c /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/CaptureSessionManager.m -o /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/CaptureSessionManager.o0#
+lSLF07#2@95"Compile /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/CaptureSessionManager.m321849474#321849474#0(0"0(0#0#87"/Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/CaptureSessionManager.m8685789888#2153"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-generated-files.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-own-target-headers.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-all-target-headers.hmap -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-project-headers.hmap -F/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/opencv_device/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources/armv7 -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-dpsephsdejglxkgettwrkkbcqvru/FaceDetection_Prefix.pch -c /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/CaptureSessionManager.m -o /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/CaptureSessionManager.o0#
 
 CCompileC build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/CaptureSessionManager.o /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v2/Classes/CaptureSessionManager.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s321739664.504317
@@ -1104,8 +1114,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@112"Compile /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/Classes/CaptureSessionManager.m321746422#321746422#0(0"0(0#0#104"/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/Classes/CaptureSessionManager.m9072038240#2357"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-generated-files.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-own-target-headers.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-all-target-headers.hmap -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-project-headers.hmap -F/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/Debug-iphoneos -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/Debug-iphoneos/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/opencv_device/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources/armv7 -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-eulgdmppiroofhckniwucwqkdplw/FaceDetection_Prefix.pch -c /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/Classes/CaptureSessionManager.m -o /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/CaptureSessionManager.o0#
 
 CCompileC build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetectionAppDelegate.o /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s321760755.583201
-e321760755.779329
+s321846529.831879
+e321846530.038767
 r1
 xCompileC
 xbuild/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetectionAppDelegate.o
@@ -1114,7 +1124,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@98"Compile /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionAppDelegate.m321760755#321760755#0(0"0(0#0#90"/Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionAppDelegate.m8607558112#2159"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-generated-files.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-own-target-headers.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-all-target-headers.hmap -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-project-headers.hmap -F/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/opencv_device/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources/armv7 -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-dpsephsdejglxkgettwrkkbcqvru/FaceDetection_Prefix.pch -c /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionAppDelegate.m -o /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetectionAppDelegate.o0#
+lSLF07#2@98"Compile /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionAppDelegate.m321846529#321846530#0(0"0(0#0#90"/Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionAppDelegate.m8654544352#2159"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-generated-files.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-own-target-headers.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-all-target-headers.hmap -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-project-headers.hmap -F/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/opencv_device/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources/armv7 -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-dpsephsdejglxkgettwrkkbcqvru/FaceDetection_Prefix.pch -c /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionAppDelegate.m -o /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetectionAppDelegate.o0#
 
 CCompileC build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetectionAppDelegate.o /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s321134938.457873
@@ -1156,8 +1166,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@115"Compile /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/Classes/FaceDetectionAppDelegate.m321745464#321745465#0(0"0(0#0#107"/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/Classes/FaceDetectionAppDelegate.m9064496768#2363"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-generated-files.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-own-target-headers.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-all-target-headers.hmap -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-project-headers.hmap -F/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/Debug-iphoneos -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/Debug-iphoneos/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/opencv_device/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources/armv7 -I/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-eulgdmppiroofhckniwucwqkdplw/FaceDetection_Prefix.pch -c /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/Classes/FaceDetectionAppDelegate.m -o /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetectionAppDelegate.o0#
 
 CCompileC build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetectionViewController.o /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s321760755.779435
-e321760755.995952
+s321847315.532555
+e321847315.840160
 r1
 xCompileC
 xbuild/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetectionViewController.o
@@ -1166,7 +1176,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@101"Compile /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionViewController.m321760755#321760755#0(0"0(0#0#93"/Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionViewController.m8607888256#2165"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-generated-files.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-own-target-headers.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-all-target-headers.hmap -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-project-headers.hmap -F/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/opencv_device/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources/armv7 -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-dpsephsdejglxkgettwrkkbcqvru/FaceDetection_Prefix.pch -c /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionViewController.m -o /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetectionViewController.o0#
+lSLF07#2@101"Compile /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionViewController.m321847315#321847315#0(0"0(0#0#93"/Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionViewController.m8669299936#2165"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-generated-files.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-own-target-headers.hmap -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-all-target-headers.hmap -iquote /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/FaceDetection-project-headers.hmap -F/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/opencv_device/include -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources/armv7 -I/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/DerivedSources -include /var/folders/5j/5jWkKh4AGzGhAlIGNSqqSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceDetection_Prefix-dpsephsdejglxkgettwrkkbcqvru/FaceDetection_Prefix.pch -c /Users/brendangaynor/Documents/clients/me/FaceDetection/Classes/FaceDetectionViewController.m -o /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetectionViewController.o0#
 
 CCompileC build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetectionViewController.o /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/Classes/FaceDetectionViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s321135212.985538
@@ -1315,6 +1325,15 @@ lSLF07#2@25"CompileXIB MainWindow.xib321745462#321745462#0(0"0(0#0#87"/Users/bre
 CCompileXIB /Users/brendangaynor/Documents/clients/me/FaceDetection/MainWindow.xib
 r0
 
+CCopyPNGFile /Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app/skull.png skull.png
+s321846529.432956
+e321846529.561188
+r1
+xCopyPNGFile
+x/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app/skull.png
+xskull.png
+lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/FaceDetection.app/skull.png skull.png321846529#321846529#0(0"0(0#0#65"/Users/brendangaynor/Documents/clients/me/FaceDetection/skull.png8655833792#615"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/brendangaynor/Documents/clients/me/FaceDetection/skull.png /Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app/skull.png0#
+
 CCpResource build/Debug-iphoneos/FaceDetection.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
 s321745462.003308
 e321745462.012795
@@ -1364,14 +1383,14 @@ xarmv6 armv7
 lSLF07#2@95"CreateUniversalBinary build/Debug-iphoneos/FaceDetection.app/FaceDetection normal "armv6 armv7"321746423#321746423#0(0"0(0#0#84"/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/armv6 armv79070273920#702"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetection /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetection -output /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/Debug-iphoneos/FaceDetection.app/FaceDetection0#
 
 CCreateUniversalBinary /Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app/FaceDetection normal "armv6 armv7"
-s321760758.535198
-e321760758.635521
+s321849474.700883
+e321849474.708410
 r1
 xCreateUniversalBinary
 x/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app/FaceDetection
 xnormal
 xarmv6 armv7
-lSLF07#2@95"CreateUniversalBinary build/Debug-iphoneos/FaceDetection.app/FaceDetection normal "armv6 armv7"321760758#321760758#0(0"0(0#0#67"/Users/brendangaynor/Documents/clients/me/FaceDetection/armv6 armv78601330048#634"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetection /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetection -output /Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app/FaceDetection0#
+lSLF07#2@95"CreateUniversalBinary build/Debug-iphoneos/FaceDetection.app/FaceDetection normal "armv6 armv7"321849474#321849474#0(0"0(0#0#67"/Users/brendangaynor/Documents/clients/me/FaceDetection/armv6 armv78686334016#634"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetection /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetection -output /Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app/FaceDetection0#
 
 CGenerateDSYMFile /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphoneos/FaceDetection.app.dSYM /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphoneos/FaceDetection.app/FaceDetection
 s321135213.410938
@@ -1401,13 +1420,13 @@ x/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/
 lSLF07#2@113"GenerateDSYMFile build/Debug-iphoneos/FaceDetection.app.dSYM build/Debug-iphoneos/FaceDetection.app/FaceDetection321746423#321746423#0(0"0(0#0#125"/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/Debug-iphoneos/FaceDetection.app/FaceDetection9070150080#482"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/Debug-iphoneos/FaceDetection.app/FaceDetection -o /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/Debug-iphoneos/FaceDetection.app.dSYM0#
 
 CGenerateDSYMFile /Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app.dSYM /Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app/FaceDetection
-s321760758.635623
-e321760758.965706
+s321849474.708517
+e321849474.761706
 r1
 xGenerateDSYMFile
 x/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app.dSYM
 x/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app/FaceDetection
-lSLF07#2@113"GenerateDSYMFile build/Debug-iphoneos/FaceDetection.app.dSYM build/Debug-iphoneos/FaceDetection.app/FaceDetection321760758#321760758#0(0"0(0#0#108"/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app/FaceDetection8604067008#431"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app/FaceDetection -o /Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app.dSYM0#
+lSLF07#2@113"GenerateDSYMFile build/Debug-iphoneos/FaceDetection.app.dSYM build/Debug-iphoneos/FaceDetection.app/FaceDetection321849474#321849474#0(0"0(0#0#108"/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app/FaceDetection8686162272#431"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app/FaceDetection -o /Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app.dSYM0#
 
 CLd /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetection normal armv6
 s321135213.354470
@@ -1470,24 +1489,24 @@ xarmv7
 lSLF07#2@173"Link /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetection321746422#321746423#0(0"0(0#0#0"9062788288#1295"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/Debug-iphoneos -L/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/opencv_device/lib -F/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/Debug-iphoneos -filelist /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetection.LinkFileList -dead_strip -lz -lstdc++ -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework Accelerate -lcv -lcxcore -framework AVFoundation -framework CoreMedia -framework CoreVideo -framework QuartzCore -o /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetection0#
 
 CLd /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetection normal armv6
-s321760755.764404
-e321760758.535081
+s321849474.531877
+e321849474.695415
 r1
 xLd
 x/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetection
 xnormal
 xarmv6
-lSLF07#2@156"Link /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetection321760755#321760758#0(0"0(0#0#0"8608103840#1193"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos -L/Users/brendangaynor/Documents/clients/me/FaceDetection/opencv_device/lib -F/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos -filelist /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetection.LinkFileList -dead_strip -lz -lstdc++ -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework Accelerate -lcv -lcxcore -framework AVFoundation -framework CoreMedia -framework CoreVideo -framework QuartzCore -o /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetection0#
+lSLF07#2@156"Link /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetection321849474#321849474#0(0"0(0#0#0"8686531520#1193"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos -L/Users/brendangaynor/Documents/clients/me/FaceDetection/opencv_device/lib -F/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos -filelist /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetection.LinkFileList -dead_strip -lz -lstdc++ -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework Accelerate -lcv -lcxcore -framework AVFoundation -framework CoreMedia -framework CoreVideo -framework QuartzCore -o /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv6/FaceDetection0#
 
 CLd /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetection normal armv7
-s321760756.211025
-e321760758.492455
+s321849474.563138
+e321849474.700713
 r1
 xLd
 x/Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetection
 xnormal
 xarmv7
-lSLF07#2@156"Link /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetection321760756#321760758#0(0"0(0#0#0"8606891584#1193"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos -L/Users/brendangaynor/Documents/clients/me/FaceDetection/opencv_device/lib -F/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos -filelist /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetection.LinkFileList -dead_strip -lz -lstdc++ -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework Accelerate -lcv -lcxcore -framework AVFoundation -framework CoreMedia -framework CoreVideo -framework QuartzCore -o /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetection0#
+lSLF07#2@156"Link /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetection321849474#321849474#0(0"0(0#0#0"8681363136#1193"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos -L/Users/brendangaynor/Documents/clients/me/FaceDetection/opencv_device/lib -F/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos -filelist /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetection.LinkFileList -dead_strip -lz -lstdc++ -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework Accelerate -lcv -lcxcore -framework AVFoundation -framework CoreMedia -framework CoreVideo -framework QuartzCore -o /Users/brendangaynor/Documents/clients/me/FaceDetection/build/FaceDetection.build/Debug-iphoneos/FaceDetection.build/Objects-normal/armv7/FaceDetection0#
 
 CProcessInfoPlistFile /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection/build/Debug-iphoneos/FaceDetection.app/Info.plist FaceDetection-Info.plist
 s321060840.599454
@@ -1746,10 +1765,10 @@ x/Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/
 lSLF07#2@117"Touch /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/Debug-iphoneos/FaceDetection.app321746423#321746423#0(0"0(0#0#0"9070015840#338"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/brendangaynor/Documents/clients/me/FaceDetection/FaceDetection_v3/build/Debug-iphoneos/FaceDetection.app0#
 
 CTouch /Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app
-s321760758.965893
-e321760758.989036
+s321849474.761881
+e321849474.764656
 r1
 xTouch
 x/Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app
-lSLF07#2@100"Touch /Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app321760758#321760758#0(0"0(0#0#0"8608098080#304"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app0#
+lSLF07#2@100"Touch /Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app321849474#321849474#0(0"0(0#0#0"8686011648#304"    cd /Users/brendangaynor/Documents/clients/me/FaceDetection    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/brendangaynor/Documents/clients/me/FaceDetection/build/Debug-iphoneos/FaceDetection.app0#
 

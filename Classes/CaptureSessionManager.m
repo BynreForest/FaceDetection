@@ -55,6 +55,7 @@ Copyright (C) 2010 Apple Inc. All Rights Reserved.
 @synthesize captureSession;
 @synthesize previewLayer;
 @synthesize recognizedRect;
+@synthesize face_rect;
 
 
 // Perform face detection on the input image, using the given Haar Cascade.
@@ -127,7 +128,7 @@ Copyright (C) 2010 Apple Inc. All Rights Reserved.
 	// Create a UIImage from the sample buffer data
     IplImage *image = [self createIplImageFromSampleBuffer:sampleBuffer];
 	[self opencvFaceDetect:image];
-	NSLog(@"captureOutput");
+
 	//IplImage *iplImage = [self CreateIplImageFromUIImage:image];
 	
 	//dispatch_queue_t my_queue = dispatch_queue_create("com.example.subsystem.taskABC", NULL);
@@ -183,8 +184,8 @@ Copyright (C) 2010 Apple Inc. All Rights Reserved.
     // Get the number of bytes per row for the pixel buffer
     size_t bytesPerRow = CVPixelBufferGetBytesPerRow(imageBuffer); 
     // Get the pixel buffer width and height
-    size_t width = CVPixelBufferGetWidth(imageBuffer); 
-    size_t height = CVPixelBufferGetHeight(imageBuffer); 
+    size_t width = CVPixelBufferGetWidth(imageBuffer)/2; 
+    size_t height = CVPixelBufferGetHeight(imageBuffer)/2; 
 	
     // Create a device-dependent RGB color space
     CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB(); 
@@ -245,8 +246,9 @@ Copyright (C) 2010 Apple Inc. All Rights Reserved.
 }
 
 #pragma mark Face Detection OpenCV
-- (void) opencvFaceDetect:(IplImage *)image  {
+- (CGRect) opencvFaceDetect:(IplImage *)image  {
 		
+	
 		// Load XML
 		NSString *path = [[NSBundle mainBundle] pathForResource:@"haarcascade_frontalface_default" ofType:@"xml"];
 		CvHaarClassifierCascade* cascade = (CvHaarClassifierCascade*)cvLoad([path cStringUsingEncoding:NSASCIIStringEncoding], NULL, NULL, NULL);
@@ -265,7 +267,7 @@ Copyright (C) 2010 Apple Inc. All Rights Reserved.
 		CvSeq* faces = cvHaarDetectObjects(small_image, cascade, storage, 1.2f, 1, CV_HAAR_DO_CANNY_PRUNING, cvSize(20, 20));
 		cvReleaseImage(&small_image);
 	
-	NSLog(@"Image Width: %i", image->width);
+	//NSLog(@"Image Width: %i", image->width);
 	
 	
 		CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
@@ -278,51 +280,24 @@ Copyright (C) 2010 Apple Inc. All Rights Reserved.
 				
 		// Calc the rect of faces
 		CvRect cvrect = *(CvRect*)cvGetSeqElem(faces, i);
-		CGRect face_rect = CGContextConvertRectToDeviceSpace(contextRef, CGRectMake(cvrect.x * scale, cvrect.y * scale, cvrect.width * scale, cvrect.height * scale));
+		face_rect = CGContextConvertRectToDeviceSpace(contextRef, CGRectMake(cvrect.x * scale, cvrect.y * scale, cvrect.width * scale, cvrect.height * scale));
 		
-		NSLog(@"faces: %d", face_rect);
+		//NSLog(@"faces: %d", face_rect);
+		
+		CGContextStrokeRect(contextRef, face_rect);
 		
 	}	
+	
+	CGContextRelease(contextRef);
+	CGColorSpaceRelease(colorSpace);
+	
+	cvReleaseMemStorage(&storage);
+	cvReleaseHaarClassifierCascade(&cascade);
+	
+	
+	
+	return face_rect;
 		
-	/*
-		// Create canvas to show the results
-		CGImageRef imageRef = imageView.image.CGImage;
-		CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
-		CGContextRef contextRef = CGBitmapContextCreate(NULL, imageView.image.size.width, imageView.image.size.height,
-														8, imageView.image.size.width * 4,
-														colorSpace, kCGImageAlphaPremultipliedLast|kCGBitmapByteOrderDefault);
-		CGContextDrawImage(contextRef, CGRectMake(0, 0, imageView.image.size.width, imageView.image.size.height), imageRef);
-		
-		CGContextSetLineWidth(contextRef, 4);
-		CGContextSetRGBStrokeColor(contextRef, 0.0, 0.0, 1.0, 0.5);
-		
-		// Draw results on the iamge
-		for(int i = 0; i < faces->total; i++) {
-			NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-			
-			// Calc the rect of faces
-			CvRect cvrect = *(CvRect*)cvGetSeqElem(faces, i);
-			CGRect face_rect = CGContextConvertRectToDeviceSpace(contextRef, CGRectMake(cvrect.x * scale, cvrect.y * scale, cvrect.width * scale, cvrect.height * scale));
-			
-			if(overlayImage) {
-				CGContextDrawImage(contextRef, face_rect, overlayImage.CGImage);
-			} else {
-				CGContextStrokeRect(contextRef, face_rect);
-			}
-			
-			[pool release];
-		}
-		
-		imageView.image = [UIImage imageWithCGImage:CGBitmapContextCreateImage(contextRef)];
-		CGContextRelease(contextRef);
-		CGColorSpaceRelease(colorSpace);
-		
-		cvReleaseMemStorage(&storage);
-		cvReleaseHaarClassifierCascade(&cascade);
-		
-		[self hideProgressIndicator];
-	}
-	 */
 }
 
 

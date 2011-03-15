@@ -53,9 +53,33 @@
 	[captureManager.captureSession startRunning];
 	captureManager.captureSession = captureManager.captureSession;
 	
+	[NSTimer scheduledTimerWithTimeInterval:0.50 target:self selector:@selector(onTimer:) userInfo:nil repeats:YES];
+	
+	imageLayer = [[CALayer layer] retain];
+	//imageLayer.bounds = CGRectMake(10, 10, 100, 100);
+	//imageLayer.position = CGPointMake(100, 100);
+	
+	imageLayer.contents = (id)[[UIImage imageNamed:@"skull.png"] CGImage]; 
+	
+	[self.view.layer addSublayer:imageLayer];
+	
+	
 	
 }
 
+-(void) onTimer:(NSTimer *)timer {
+	NSLog(@"Timer: %d", captureManager.face_rect);
+	
+	imageLayer.bounds = captureManager.face_rect;
+	imageLayer.position = CGPointMake(CGRectGetMinX(captureManager.face_rect), CGRectGetMinY(captureManager.face_rect));
+	/*
+	CGFLoat x = CGRectGetMinX(rect);
+	CGFLoat y = CGRectGetMinY(rect);
+	CGFloat width = CGRectGetWidth(rect);
+	CGFloat height = CGRectGetHeight(rect);
+	 */
+	
+}
 
 
 /*

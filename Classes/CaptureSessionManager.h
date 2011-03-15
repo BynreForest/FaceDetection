@@ -57,6 +57,7 @@ Copyright (C) 2010 Apple Inc. All Rights Reserved.
 	AVCaptureVideoPreviewLayer *previewLayer;
 	AVCaptureConnection *videoConnection;
 	CGRect recognizedRect;
+	CGRect face_rect;
 	
 }
 
@@ -67,12 +68,13 @@ Copyright (C) 2010 Apple Inc. All Rights Reserved.
 - (void)captureOutput:(AVCaptureOutput *)captureOutput didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer fromConnection:(AVCaptureConnection *)connection;
 //- (CvRect *)detectFaceInImage:(IplImage *)inputImg haarCasc:(CvHaarClassifierCascade *) cascade;
 - (IplImage *)CreateIplImageFromUIImage:(UIImage *)image;
-- (void) opencvFaceDetect:(IplImage *)image;
+- (CGRect) opencvFaceDetect:(IplImage *)image;
 - (AVCaptureDevice *)frontFacingCameraIfAvailable;
 - (IplImage *)createIplImageFromSampleBuffer:(CMSampleBufferRef)sampleBuffer;
 
 @property (retain) AVCaptureVideoPreviewLayer *previewLayer;
 @property (retain) AVCaptureSession *captureSession;
 @property (readwrite) CGRect recognizedRect;
+@property (readwrite) CGRect face_rect;
 
 @end

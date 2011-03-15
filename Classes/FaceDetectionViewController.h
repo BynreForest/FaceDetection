@@ -13,6 +13,8 @@
 @interface FaceDetectionViewController : UIViewController {
 	CaptureSessionManager *captureManager;
 	CALayer *overlayLayer;
+	
+	CALayer *imageLayer;
 
 }
 

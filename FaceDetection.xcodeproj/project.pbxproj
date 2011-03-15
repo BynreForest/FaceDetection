@@ -15,6 +15,7 @@
 		2899E5220DE3E06400AC0155 /* FaceDetectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* FaceDetectionViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* FaceDetectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* FaceDetectionViewController.m */; };
+		D71D7607132EF8CC003409A4 /* skull.png in Resources */ = {isa = PBXBuildFile; fileRef = D71D7606132EF8CC003409A4 /* skull.png */; };
 		D75DED501322FC01009D84CD /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D75DED4F1322FC01009D84CD /* Accelerate.framework */; };
 		D75DED731324056F009D84CD /* libcv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D75DED721324056F009D84CD /* libcv.a */; };
 		D75DED7513240587009D84CD /* libcxcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D75DED7413240587009D84CD /* libcxcore.a */; };
@@ -40,6 +41,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* FaceDetection_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceDetection_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* FaceDetection-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FaceDetection-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		D71D7606132EF8CC003409A4 /* skull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skull.png; sourceTree = "<group>"; };
 		D75DED4F1322FC01009D84CD /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		D75DED721324056F009D84CD /* libcv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcv.a; sourceTree = "<group>"; };
 		D75DED7413240587009D84CD /* libcxcore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcxcore.a; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D71D7606132EF8CC003409A4 /* skull.png */,
 				D75DEEE913266B6A009D84CD /* haarcascade_frontalface_default.xml */,
 				2899E5210DE3E06400AC0155 /* FaceDetectionViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
@@ -203,6 +206,7 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* FaceDetectionViewController.xib in Resources */,
 				D75DEEEA13266B6A009D84CD /* haarcascade_frontalface_default.xml in Resources */,
+				D71D7607132EF8CC003409A4 /* skull.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
